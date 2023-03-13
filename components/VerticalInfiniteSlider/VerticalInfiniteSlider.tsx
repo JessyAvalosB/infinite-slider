@@ -1,11 +1,8 @@
 import * as React from 'react';
-import { Slide, Slider, SlideTrack } from '../InfiniteSlider/Style';
+import { Slide, Slider, SlideTrack } from '../VerticalInfiniteSlider/Style';
+import { InfiniteSliderProps } from '../InfiniteSlider/InfiniteSlider';
 
-export interface InfiniteSliderProps {
-  slides: any[];
-}
-
-export const InfiniteSlider = ({
+export const VerticalInfiniteSlider = ({
   slides = [],
 }: InfiniteSliderProps): JSX.Element => {
   return (

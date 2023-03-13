@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Icon } from './components/Icon/Icon';
 import { InfiniteSlider } from './components/InfiniteSlider/InfiniteSlider';
+import { VerticalInfiniteSlider } from './components/VerticalInfiniteSlider/VerticalInfiniteSlider';
 import './style.css';
 
 export default function App() {
@@ -94,6 +95,8 @@ export default function App() {
     <div style={{ textAlign: 'center' }}>
       <h1>Infinite Slider</h1>
       <InfiniteSlider slides={icons} />
+      <h1>Vertical Infinite Slider</h1>
+      <VerticalInfiniteSlider slides={icons} />
     </div>
   );
 }
