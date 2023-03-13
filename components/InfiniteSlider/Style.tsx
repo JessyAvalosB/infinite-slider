@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from 'styled-components';
 
 const WhiteGradient = css`
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right,  rgba(231, 231, 231, 1) 0%,rgba(231, 231, 231, 0) 100%);
 `;
 
 const Scroll = (size: number) => keyframes`
@@ -10,7 +10,7 @@ const Scroll = (size: number) => keyframes`
 `;
 
 export const Slider = styled.div`
-  background: white;
+  background: #e7e7e7;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: 100px;
   margin: auto;
