@@ -11,10 +11,10 @@ export const InfiniteSlider = ({
   return (
     <Slider>
       <SlideTrack>
-        {slides.map(({ element: Element }, i) => {
+        {slides.map(({ element: Element, ...props }, i) => {
           return (
             <Slide key={i}>
-              <Element />
+              <Element {...props}/>
             </Slide>
           );
         })}
